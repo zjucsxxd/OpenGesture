@@ -17,4 +17,10 @@ typedef struct JointStruct
 	double x;
 	double y;
 	double z;
-};
+} JOINT_STRUCT;
+typedef struct GestureInfoStructure
+{
+	char* GestureName;
+	double buffer;
+
+} GESTURE_INFO;
