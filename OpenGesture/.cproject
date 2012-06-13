@@ -28,6 +28,7 @@
 								<inputType id="org.eclipse.cdt.msvc.cl.inputType.1920225424" superClass="org.eclipse.cdt.msvc.cl.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.rc.exe.debug.1611502574" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.exe.debug">
+								<option id="org.eclipse.cdt.msvc.rc.option.includes.181136890" name="Include Path (/I)" superClass="org.eclipse.cdt.msvc.rc.option.includes" valueType="includePath"/>
 								<inputType id="org.eclipse.cdt.msvc.rc.inputType.624378440" superClass="org.eclipse.cdt.msvc.rc.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.link.exe.debug.944625564" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.exe.debug">
@@ -35,6 +36,25 @@
 								<inputType id="org.eclipse.cdt.msvc.link.inputType.433339705" superClass="org.eclipse.cdt.msvc.link.inputType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.msvc.lib.1916967653" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="org.eclipse.cdt.msvc.exe.debug.1522591412.1234624401" name="/" resourcePath="src/Include">
+						<toolChain id="org.eclipse.cdt.msvc.toolchain.exe.debug.804726786" name="Microsoft Visual C++" superClass="org.eclipse.cdt.msvc.toolchain.exe.debug" unusedChildren="">
+							<targetPlatform id="org.eclipse.cdt.msvc.targetPlatform.exe.debug" superClass="org.eclipse.cdt.msvc.targetPlatform.exe.debug"/>
+							<tool id="org.eclipse.cdt.msvc.cl.c.exe.debug.1698115476" name="C Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.c.exe.debug.1963229831">
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.c.1016082822" superClass="org.eclipse.cdt.msvc.cl.inputType.c"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.cl.exe.debug.1633236872" name="C++ Compiler (cl)" superClass="org.eclipse.cdt.msvc.cl.exe.debug.401818193">
+								<inputType id="org.eclipse.cdt.msvc.cl.inputType.1853652206" superClass="org.eclipse.cdt.msvc.cl.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.rc.exe.debug.332846115" name="Resource Compiler (rc)" superClass="org.eclipse.cdt.msvc.rc.exe.debug.1611502574">
+								<option id="org.eclipse.cdt.msvc.rc.option.includes.562396494" name="Include Path (/I)" superClass="org.eclipse.cdt.msvc.rc.option.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="/OpenGesture/src/include"/>
+								</option>
+								<inputType id="org.eclipse.cdt.msvc.rc.inputType.19780295" superClass="org.eclipse.cdt.msvc.rc.inputType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.msvc.link.exe.debug.1429387278" name="Linker (link)" superClass="org.eclipse.cdt.msvc.link.exe.debug.944625564"/>
+							<tool id="org.eclipse.cdt.msvc.lib.328690910" name="Library Manager (lib)" superClass="org.eclipse.cdt.msvc.lib.1916967653"/>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -90,9 +110,18 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="OpenGesture.org.eclipse.cdt.msvc.projectType.exe.1402192352" name="Executable" projectType="org.eclipse.cdt.msvc.projectType.exe"/>
 	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/OpenGesture"/>
+	</storageModule>
 	<storageModule moduleId="scannerConfiguration">
 		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.exe.debug.1522591412;org.eclipse.cdt.msvc.exe.debug.1522591412.1234624401;org.eclipse.cdt.msvc.cl.exe.debug.1633236872;org.eclipse.cdt.msvc.cl.inputType.1853652206">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.msw.build.clScannerInfo"/>
+		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.exe.debug.1522591412;org.eclipse.cdt.msvc.exe.debug.1522591412.;org.eclipse.cdt.msvc.cl.c.exe.debug.1963229831;org.eclipse.cdt.msvc.cl.inputType.c.105443778">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.msw.build.clScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.exe.debug.1522591412;org.eclipse.cdt.msvc.exe.debug.1522591412.1234624401;org.eclipse.cdt.msvc.cl.c.exe.debug.1698115476;org.eclipse.cdt.msvc.cl.inputType.c.1016082822">
 			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.msw.build.clScannerInfo"/>
 		</scannerConfigBuildInfo>
 		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.msvc.exe.debug.1522591412;org.eclipse.cdt.msvc.exe.debug.1522591412.;org.eclipse.cdt.msvc.cl.exe.debug.401818193;org.eclipse.cdt.msvc.cl.inputType.1920225424">

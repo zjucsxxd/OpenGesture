@@ -4,7 +4,9 @@
  *  Created on: Jun 13, 2012
  *      Author: HALOBYDI
  */
-#include "GestureDataTypes.h"
+#include <GestureDataTypes.h>
+#include <CGestureNN.h>
+#include <CGbinFile.h>
 
 #ifndef COPENGESTURE_H_
 #define COPENGESTURE_H_
@@ -30,6 +32,8 @@ protected:
 	static void Normalise(JointStruct* joint,double max,double min);
 public: // Gesture Recognition
 	bool RecogniseGesture(double dataPoint);
+    double ShiftTimeFrame(double data);
+    double Filter(double data);
 };
 
 #endif /* COPENGESTURE_H_ */

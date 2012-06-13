@@ -27,5 +27,12 @@ bool COpenGesture::RecogniseGesture(double dataPoint) {
 	return false;
 }
 
+double COpenGesture::ShiftTimeFrame(double data) {
+}
+
+double COpenGesture::Filter(double data) {
+}
+
+
 
 
