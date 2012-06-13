@@ -4,16 +4,11 @@
  *  Created on: Jun 13, 2012
  *      Author: HALOBYDI
  */
+#include "GestureDataTypes.h"
 
 #ifndef COPENGESTURE_H_
 #define COPENGESTURE_H_
 // A structure that contain the Joint cord in 3d space
-typedef struct JointStruct
-{
-	double x;
-	double y;
-	double z;
-};
 class COpenGesture {
 public:
 	COpenGesture();
@@ -33,7 +28,8 @@ public:// public methods
 	void LoadGesture(char* fn);
 protected:
 	static void Normalise(JointStruct* joint,double max,double min);
-
+public: // Gesture Recognition
+	bool RecogniseGesture(double dataPoint);
 };
 
 #endif /* COPENGESTURE_H_ */

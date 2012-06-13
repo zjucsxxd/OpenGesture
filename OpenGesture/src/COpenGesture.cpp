@@ -16,3 +16,16 @@ COpenGesture::~COpenGesture() {
 	// TODO Auto-generated destructor stub
 }
 
+void COpenGesture::LoadGesture(char* fn) {
+}
+
+static void COpenGesture::Normalise(JointStruct* joint, double max, double min) {
+}
+
+bool COpenGesture::RecogniseGesture(double dataPoint) {
+
+	return false;
+}
+
+
+
