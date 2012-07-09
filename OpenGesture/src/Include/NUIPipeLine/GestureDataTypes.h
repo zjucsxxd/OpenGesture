@@ -36,4 +36,11 @@ typedef struct SkeletonJoints
 
 
 } SKELETON_JOINTS;
+enum PORT_TYPE
+{
+	SINK,
+	SOURCE,
+	FILTER
+};
+
 #endif
