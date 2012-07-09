@@ -3,9 +3,12 @@
  *
  *  Created on: Jun 13, 2012
  *      Author: HALOBYDI
+ *
+ *
+ *      This is the main class to investigate a Gesture
  */
 #include <GestureDataTypes.h>
-#include <CGestureNN.h>
+
 #include <CGbinFile.h>
 
 #ifndef COPENGESTURE_H_
@@ -16,9 +19,7 @@ public:
 	COpenGesture();
 	virtual ~COpenGesture();
 private:// internal buffers
-	double yBuffer[];
-	double yBuffer[];
-	double zBuffer[];
+
 
 private:// the Gesture file that conatin the pattens
 	char* templateFileName;

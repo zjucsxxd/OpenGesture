@@ -36,3 +36,13 @@ double COpenGesture::Filter(double data) {
 
 
 
+class CGesture {
+public:
+	CGesture();
+	virtual ~CGesture();
+public:
+	GESTURE_INFO* info;
+	char* Gesture_file_name;
+	
+};
+
